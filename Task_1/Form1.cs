@@ -16,5 +16,12 @@ namespace Task_1
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Text = textBox1.Text;
+            textBox1.Text = "";
+            textBox1.Focus();
+        }
     }
 }
